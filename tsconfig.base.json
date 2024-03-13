@@ -17,6 +17,9 @@
     "paths": {
       "@nexularpress/domain-interfaces": [
         "libs/shared/domain/interfaces/src/index.ts"
+      ],
+      "@nexularpress/posts-data-access": [
+        "libs/shared/posts/data-access/src/index.ts"
       ]
     }
   },
