@@ -27,4 +27,5 @@ export default {
   moduleFileExtensions: ['ts', 'js', 'html'],
   testEnvironment: 'node',
   coverageDirectory: '../../../../coverage/libs/shared/domain/interfaces',
+  passWithNoTests: true,
 };
