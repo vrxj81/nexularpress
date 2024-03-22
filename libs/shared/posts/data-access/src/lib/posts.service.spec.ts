@@ -46,7 +46,9 @@ describe('PostsService', () => {
 
       const posts = await service.getPosts(queryParams);
       expect(posts).toEqual(expectedPosts);
-      expect(httpClientMock.get).toHaveBeenCalledWith('/wp/v2/posts?search=Angular&page=1');
+      expect(httpClientMock.get).toHaveBeenCalledWith(
+        '/wp/v2/posts?search=Angular&page=1'
+      );
     });
   });
 
@@ -69,7 +71,9 @@ describe('PostsService', () => {
 
       const post = await service.getPost(postId, queryParams);
       expect(post).toEqual(expectedPost);
-      expect(httpClientMock.get).toHaveBeenCalledWith('/wp/v2/posts/1?password=secret');
+      expect(httpClientMock.get).toHaveBeenCalledWith(
+        '/wp/v2/posts/1?password=secret'
+      );
     });
   });
 });

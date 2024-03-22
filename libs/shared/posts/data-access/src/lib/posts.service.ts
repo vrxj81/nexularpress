@@ -22,9 +22,7 @@ export class PostsService {
           .map((key) => `${key}=${query[key as keyof IPostsQueryParams]}`)
           .join('&')
       : '';
-    return firstValueFrom(
-      this.http.get<IPost[]>(`${this.postsUrl}${params}`)
-    );
+    return firstValueFrom(this.http.get<IPost[]>(`${this.postsUrl}${params}`));
   }
 
   getPost(id: number, query?: IRetrievePostQueryParams) {
