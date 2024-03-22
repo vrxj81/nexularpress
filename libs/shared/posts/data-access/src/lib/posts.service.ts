@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { toSignal } from '@angular/core/rxjs-interop';
 import {
   IPost,
   IPostsQueryParams,
   IRetrievePostQueryParams,
 } from '@nexularpress/domain-interfaces';
+import { firstValueFrom } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -22,7 +22,7 @@ export class PostsService {
           .map((key) => `${key}=${query[key as keyof IPostsQueryParams]}`)
           .join('&')
       : '';
-    return toSignal<IPost[]>(
+    return firstValueFrom(
       this.http.get<IPost[]>(`${this.postsUrl}${params}`)
     );
   }
@@ -36,7 +36,7 @@ export class PostsService {
           )
           .join('&')
       : '';
-    return toSignal<IPost>(
+    return firstValueFrom(
       this.http.get<IPost>(`${this.postsUrl}/${id}${params}`)
     );
   }
