@@ -12,7 +12,7 @@ describe('PostsService', () => {
     // Create a mock HttpClient
     httpClientMock = {
       get: jest.fn(),
-    } as any;
+    } as never;
 
     TestBed.configureTestingModule({
       // Provide the mock HttpClient
