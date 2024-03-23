@@ -23,6 +23,9 @@
       ],
       "@nexularpress/posts-data-access": [
         "libs/shared/posts/data-access/src/index.ts"
+      ],
+      "@nexularpress/tags-data-access": [
+        "libs/shared/tags/data-access/src/index.ts"
       ]
     }
   },
