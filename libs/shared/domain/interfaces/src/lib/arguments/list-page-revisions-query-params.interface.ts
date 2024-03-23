@@ -1,5 +1,4 @@
 export interface IListPageRevisionsQueryParams {
-  parent: number; // The ID for the parent of the revision, Required
   context?: 'view' | 'embed' | 'edit';
   page?: number;
   per_page?: number;
