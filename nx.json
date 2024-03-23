@@ -12,9 +12,7 @@
       "!{projectRoot}/src/test-setup.[jt]s",
       "!{projectRoot}/test-setup.[jt]s"
     ],
-    "sharedGlobals": [
-      "{workspaceRoot}/.github/workflows/ci.yml"
-    ]
+    "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
   "nxCloudAccessToken": "YTcxOTNkYWItMTNiZC00NTMxLTg5YmQtZTk5OWVkYzdhNzU2fHJlYWQtd3JpdGU=",
   "targetDefaults": {
