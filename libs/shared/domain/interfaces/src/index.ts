@@ -22,3 +22,6 @@ export * from './lib/resources/comment.interface';
 export * from './lib/arguments/list-taxonomies-query-params.interface';
 export * from './lib/arguments/retrieve-taxonomy-query-params.interface';
 export * from './lib/resources/taxonomy.interface';
+export * from './lib/arguments/list-media-query-params.interface';
+export * from './lib/arguments/retrieve-media-item-query-params.interface';
+export * from './lib/resources/media.interface';
