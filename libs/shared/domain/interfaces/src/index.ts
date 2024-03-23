@@ -7,3 +7,6 @@ export * from './lib/resources/category.interface';
 export * from './lib/arguments/list-tags-query-params.interface';
 export * from './lib/arguments/retrieve-tag-query-params.interface';
 export * from './lib/resources/tag.interface';
+export * from './lib/arguments/list-post-revisions-query-params.interface';
+export * from './lib/arguments/retrieve-post-revision-query-params.interface';
+export * from './lib/resources/post-revision.interface';

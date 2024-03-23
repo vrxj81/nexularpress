@@ -1,5 +1,4 @@
 export interface IListPostRevisionsQueryParams {
-  parent: number; // Required: The ID for the parent of the revision
   context?: 'view' | 'embed' | 'edit';
   page?: number;
   per_page?: number;
