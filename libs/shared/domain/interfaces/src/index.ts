@@ -19,3 +19,6 @@ export * from './lib/resources/page-revision.interface';
 export * from './lib/arguments/list-comments-query-params.interface';
 export * from './lib/arguments/retrieve-comment-query-params.interface';
 export * from './lib/resources/comment.interface';
+export * from './lib/arguments/list-taxonomies-query-params.interface';
+export * from './lib/arguments/retrieve-taxonomy-query-params.interface';
+export * from './lib/resources/taxonomy.interface';
