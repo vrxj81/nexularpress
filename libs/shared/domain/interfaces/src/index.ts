@@ -13,3 +13,6 @@ export * from './lib/resources/post-revision.interface';
 export * from './lib/arguments/list-pages-query-params.interface';
 export * from './lib/arguments/retrieve-page-query-params.interface';
 export * from './lib/resources/page.interface';
+export * from './lib/arguments/list-page-revisions-query-params.interface';
+export * from './lib/arguments/retrieve-page-revision-query-params.interface';
+export * from './lib/resources/page-revision.interface';
