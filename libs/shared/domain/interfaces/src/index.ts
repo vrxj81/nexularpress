@@ -10,3 +10,6 @@ export * from './lib/resources/tag.interface';
 export * from './lib/arguments/list-post-revisions-query-params.interface';
 export * from './lib/arguments/retrieve-post-revision-query-params.interface';
 export * from './lib/resources/post-revision.interface';
+export * from './lib/arguments/list-pages-query-params.interface';
+export * from './lib/arguments/retrieve-page-query-params.interface';
+export * from './lib/resources/page.interface';
