@@ -16,3 +16,6 @@ export * from './lib/resources/page.interface';
 export * from './lib/arguments/list-page-revisions-query-params.interface';
 export * from './lib/arguments/retrieve-page-revision-query-params.interface';
 export * from './lib/resources/page-revision.interface';
+export * from './lib/arguments/list-comments-query-params.interface';
+export * from './lib/arguments/retrieve-comment-query-params.interface';
+export * from './lib/resources/comment.interface';
