@@ -21,6 +21,9 @@
       "@nexularpress/domain-interfaces": [
         "libs/shared/domain/interfaces/src/index.ts"
       ],
+      "@nexularpress/page-revisions-data-access": [
+        "libs/shared/page-revisions/data-access/src/index.ts"
+      ],
       "@nexularpress/post-revisions-data-access": [
         "libs/shared/post-revisions/data-access/src/index.ts"
       ],
