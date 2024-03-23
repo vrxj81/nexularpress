@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {
+  IListPostsQueryParams,
   IPost,
-  IPostsQueryParams,
   IRetrievePostQueryParams,
 } from '@nexularpress/domain-interfaces';
 import { firstValueFrom } from 'rxjs';
@@ -15,11 +15,11 @@ export class PostsService {
 
   constructor(private readonly http: HttpClient) {}
 
-  getPosts(query?: IPostsQueryParams) {
+  getPosts(query?: IListPostsQueryParams) {
     const params = query
       ? '?' +
         Object.keys(query)
-          .map((key) => `${key}=${query[key as keyof IPostsQueryParams]}`)
+          .map((key) => `${key}=${query[key as keyof IListPostsQueryParams]}`)
           .join('&')
       : '';
     return firstValueFrom(this.http.get<IPost[]>(`${this.postsUrl}${params}`));
