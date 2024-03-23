@@ -1,4 +1,4 @@
-export interface IPostsQueryParams {
+export interface IListPostsQueryParams {
   context?: 'view' | 'embed' | 'edit';
   page?: number;
   per_page?: number;

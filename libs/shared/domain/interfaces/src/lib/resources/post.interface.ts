@@ -1,15 +1,7 @@
-interface IGuidObject {
-  rendered: string; // Assuming a structure for the GUID object
-}
-
-interface IRenderedObject {
-  rendered: string;
-}
-
 export interface IPost {
   date: string | null; // Format: datetime or null
   date_gmt: string | null; // Format: datetime or null
-  guid: IGuidObject; // Read only
+  guid: { rendered: string }; // Read only
   id: number; // Read only
   link: string; // Format: uri, Read only
   modified: string; // Format: datetime, Read only
@@ -20,10 +12,10 @@ export interface IPost {
   password?: string;
   permalink_template?: string; // Read only
   generated_slug?: string; // Read only
-  title: IRenderedObject;
-  content: IRenderedObject;
+  title: { rendered: string };
+  content: { rendered: string };
   author: number;
-  excerpt: IRenderedObject;
+  excerpt: { rendered: string };
   featured_media: number;
   comment_status: 'open' | 'closed';
   ping_status: 'open' | 'closed';
