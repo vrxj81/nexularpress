@@ -18,6 +18,9 @@
       "@nexularpress/categories-data-access": [
         "libs/shared/categories/data-access/src/index.ts"
       ],
+      "@nexularpress/comments-data-access": [
+        "libs/shared/comments/data-access/src/index.ts"
+      ],
       "@nexularpress/domain-interfaces": [
         "libs/shared/domain/interfaces/src/index.ts"
       ],
