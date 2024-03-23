@@ -35,6 +35,9 @@
       ],
       "@nexularpress/tags-data-access": [
         "libs/shared/tags/data-access/src/index.ts"
+      ],
+      "@nexularpress/taxonomies-data-access": [
+        "libs/shared/taxonomies/data-access/src/index.ts"
       ]
     }
   },
