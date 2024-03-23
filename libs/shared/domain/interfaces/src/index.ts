@@ -4,3 +4,6 @@ export * from './lib/resources/post.interface';
 export * from './lib/arguments/list-categories-query-params.interface';
 export * from './lib/arguments/retrieve-category-query-params.interface';
 export * from './lib/resources/category.interface';
+export * from './lib/arguments/list-tags-query-params.interface';
+export * from './lib/arguments/retrieve-tag-query-params.interface';
+export * from './lib/resources/tag.interface';
