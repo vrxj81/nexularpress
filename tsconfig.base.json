@@ -24,6 +24,9 @@
       "@nexularpress/domain-interfaces": [
         "libs/shared/domain/interfaces/src/index.ts"
       ],
+      "@nexularpress/media-data-access": [
+        "libs/shared/media/data-access/src/index.ts"
+      ],
       "@nexularpress/page-revisions-data-access": [
         "libs/shared/page-revisions/data-access/src/index.ts"
       ],
