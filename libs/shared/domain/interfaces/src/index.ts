@@ -28,3 +28,5 @@ export * from './lib/resources/media.interface';
 export * from './lib/arguments/list-users-query-params.interface';
 export * from './lib/arguments/retrieve-user-query-params.interface';
 export * from './lib/resources/user.interface';
+export * from './lib/arguments/retrieve-post-type-query-params.inteface';
+export * from './lib/resources/post-type.interface';
