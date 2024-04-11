@@ -1,4 +1,4 @@
-export interface IWPPostType {
+export interface IPostType {
   capabilities: object; // All capabilities used by the post type
   description: string; // A human-readable description of the post type
   hierarchical: boolean; // Whether the post type should have children
