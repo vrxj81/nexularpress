@@ -40,6 +40,9 @@
       "@nexularpress/page-revisions-data-access": [
         "libs/shared/page-revisions/data-access/src/index.ts"
       ],
+      "@nexularpress/plugins-data-access": [
+        "libs/shared/plugins/data-access/src/index.ts"
+      ],
       "@nexularpress/post-revisions-data-access": [
         "libs/shared/post-revisions/data-access/src/index.ts"
       ],
