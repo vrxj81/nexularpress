@@ -16,6 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@nexu": ["libs/shared/blocks/data-access/src/index.ts"],
+      "@nexularpress/block-directory-items-data-access": [
+        "libs/shared/block-directory-items/data-access/src/index.ts"
+      ],
       "@nexularpress/block-revisions-data-access": [
         "libs/shared/block-revisions/data-access/src/index.ts"
       ],
