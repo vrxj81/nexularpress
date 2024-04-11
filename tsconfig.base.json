@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nexu": ["libs/shared/blocks/data-access/src/index.ts"],
       "@nexularpress/block-types-data-access": [
         "libs/shared/block-types/data-access/src/index.ts"
       ],
