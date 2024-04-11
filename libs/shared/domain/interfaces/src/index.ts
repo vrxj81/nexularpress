@@ -32,3 +32,6 @@ export * from './lib/arguments/retrieve-post-type-query-params.inteface';
 export * from './lib/resources/post-type.interface';
 export * from './lib/arguments/retrieve-post-status-query-params.interface';
 export * from './lib/resources/post-status.interface';
+export * from './lib/arguments/list-themes-query-params.interface';
+export * from './lib/arguments/retrieve-theme-query-params.interface';
+export * from './lib/resources/theme.interface';
