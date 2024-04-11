@@ -14,6 +14,18 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
+  "release": {
+    "version": {
+      "conventionalCommits": true
+    },
+    "projectsRelationship": "independent",
+    "changelog": {
+      "projectChangelogs": {
+        "createRelease": "github",
+        "file": false
+      }
+    }
+  },
   "nxCloudAccessToken": "YTcxOTNkYWItMTNiZC00NTMxLTg5YmQtZTk5OWVkYzdhNzU2fHJlYWQtd3JpdGU=",
   "targetDefaults": {
     "@nx/js:swc": {
