@@ -22,11 +22,13 @@ jobs:
       # - run: yarn nx-cloud start-ci-run --distribute-on="5 linux-medium-js" --stop-agents-after="build"
 
       # Cache node_modules
+      - name: Enable Corepack
+        run: corepack enable
       - uses: actions/setup-node@v3
         with:
           node-version: 20
           cache: 'yarn'
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --immutable-cache
       - uses: nrwl/nx-set-shas@v4
       - run: git branch --track main origin/main
       - run: yarn nx-cloud record -- nx format:check
