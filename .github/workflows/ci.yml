@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 20
           cache: 'yarn'
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --immutable-cache
       - uses: nrwl/nx-set-shas@v4
       - run: git branch --track main origin/main
       - run: yarn nx-cloud record -- nx format:check
