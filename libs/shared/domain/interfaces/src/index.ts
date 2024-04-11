@@ -30,3 +30,5 @@ export * from './lib/arguments/retrieve-user-query-params.interface';
 export * from './lib/resources/user.interface';
 export * from './lib/arguments/retrieve-post-type-query-params.inteface';
 export * from './lib/resources/post-type.interface';
+export * from './lib/arguments/retrieve-post-status-query-params.interface';
+export * from './lib/resources/post-status.interface';
