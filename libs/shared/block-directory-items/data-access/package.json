@@ -1,0 +1,12 @@
+{
+  "name": "@nexularpress/block-directory-items-data-access",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@nexularpress/domain-interfaces": "0.0.1",
+    "rxjs": "~7.8.0"
+  },
+  "dependencies": {},
+  "sideEffects": false
+}
