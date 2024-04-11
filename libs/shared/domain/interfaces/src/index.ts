@@ -48,3 +48,6 @@ export * from './lib/arguments/retrieve-block-revision-query-params.interface';
 export * from './lib/resources/block-revision.interface';
 export * from './lib/arguments/list-block-directory-items-query-params.interface';
 export * from './lib/resources/block-directory-item.interface';
+export * from './lib/arguments/list-plugins-query-params.interface';
+export * from './lib/arguments/retrieve-plugin-query-params.interface';
+export * from './lib/resources/plugin.interface';
