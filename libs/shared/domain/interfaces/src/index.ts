@@ -40,3 +40,6 @@ export * from './lib/resources/search-result.interface';
 export * from './lib/arguments/list-block-types-query-params.interface';
 export * from './lib/arguments/retrieve-block-type-query-params.interface';
 export * from './lib/resources/block-type.interface';
+export * from './lib/arguments/list-blocks-query-params.interface';
+export * from './lib/arguments/retrieve-block-query-params.interface';
+export * from './lib/resources/block.interface';
