@@ -33,6 +33,9 @@
       "@nexularpress/post-revisions-data-access": [
         "libs/shared/post-revisions/data-access/src/index.ts"
       ],
+      "@nexularpress/post-types-data-access": [
+        "libs/shared/post-types/data-access/src/index.ts"
+      ],
       "@nexularpress/posts-data-access": [
         "libs/shared/posts/data-access/src/index.ts"
       ],
