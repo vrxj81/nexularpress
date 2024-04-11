@@ -1,4 +1,4 @@
-export interface IWPBlockRevision {
+export interface IBlockRevision {
   author: number; // The ID for the author of the revision
   date: string; // The date the revision was published, in the site's timezone, Format: datetime
   date_gmt: string; // The date the revision was published, as GMT, Format: datetime
