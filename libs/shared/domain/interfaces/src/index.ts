@@ -46,3 +46,5 @@ export * from './lib/resources/block.interface';
 export * from './lib/arguments/list-block-revisions-query-params.interface';
 export * from './lib/arguments/retrieve-block-revision-query-params.interface';
 export * from './lib/resources/block-revision.interface';
+export * from './lib/arguments/list-block-directory-items-query-params.interface';
+export * from './lib/resources/block-directory-item.interface';
