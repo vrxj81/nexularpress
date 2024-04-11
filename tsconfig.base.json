@@ -42,6 +42,9 @@
       "@nexularpress/posts-data-access": [
         "libs/shared/posts/data-access/src/index.ts"
       ],
+      "@nexularpress/search-data-access": [
+        "libs/shared/search/data-access/src/index.ts"
+      ],
       "@nexularpress/settings-data-access": [
         "libs/shared/settings/data-access/src/index.ts"
       ],
