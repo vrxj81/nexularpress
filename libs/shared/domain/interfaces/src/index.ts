@@ -43,3 +43,6 @@ export * from './lib/resources/block-type.interface';
 export * from './lib/arguments/list-blocks-query-params.interface';
 export * from './lib/arguments/retrieve-block-query-params.interface';
 export * from './lib/resources/block.interface';
+export * from './lib/arguments/list-block-revisions-query-params.interface';
+export * from './lib/arguments/retrieve-block-revision-query-params.interface';
+export * from './lib/resources/block-revision.interface';
